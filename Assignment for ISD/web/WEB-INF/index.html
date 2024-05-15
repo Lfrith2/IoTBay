@@ -1,24 +1,24 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <h1>Welcome to the homepage</h1>
-        <form action=' register.jsp' method='post' >
-         <input type='submit' value='Register'>
-        
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="login-container">
+        <form action='welcome.jsp' method='post' class="login-form">
+            <h2>Login</h2>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type='email' id='email' name='email'>
+            </div>
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type='password' id='password' name='password'>
+            </div>
+            <button type='submit'>Login</button>
         </form>
-        <form action=' login.jsp' method='post' >
-         <input type='submit' value='Login'>
-        
-        </form>
-        
-    </body>
+    </div>
+</body>
 </html>
