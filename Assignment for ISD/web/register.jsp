@@ -1,7 +1,7 @@
 <%-- 
     Document   : register
     Created on : 15 Mar 2024, 2:03:43 pm
-    Author     : wesle
+    Author     : Moses
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -12,6 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
+        <h1>Please enter your details</h1>
         <% String name = "name";%>
      
         <form action=' welcome.jsp' method='post' >
